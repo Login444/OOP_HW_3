@@ -66,7 +66,6 @@ public abstract class AbstractGame implements Game {
     public Answer inputValue(String value) {
         if (--tryCount == 0) {
             status = GameStatus.FINISH;
-            return null;
         }
 
         int cows = 0;
