@@ -19,7 +19,7 @@ public class Log {
         return "Log{" +
                 "статус игры: " + status +
                 ", введеный ответ: " + valueAnswer + '\'' +
-                ", резульат ответа: " + answerResult +
+                ", результат ответа: " + answerResult +
                 ", осталось попыток: " + tryCount +
                 '}';
     }
